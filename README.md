@@ -20,8 +20,6 @@
 | <img src="docs/drone_spec.png" width="300" /> | <img src="docs/ped_spec.png" width="300" /> |
 | *特征：高频旋翼闪烁 (Blade Flash)* | *特征：肢体摆动产生的正弦包络* |
 
-*(注：请在你的项目中创建一个 docs 文件夹，把之前生成的图片放进去)*
-
 ##  快速开始 (Quick Start)
 
 ### 1. 安装依赖
