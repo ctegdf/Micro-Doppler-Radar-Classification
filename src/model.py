@@ -46,7 +46,7 @@ class RadarCNN(nn.Module):
         # Flatten: 把多维张量展平为一维向量
         # 输入维度: 32 * 8 * 3 = 768
         self.fc = nn.Sequential(
-            nn.Linear(32 * 8 * 3, 128),
+            nn.Linear(32 * 8 * 7, 128),
             nn.ReLU(),
             nn.Dropout(0.5),  # 防止过拟合
             nn.Linear(128, 2)  # 输出 2 类 (Drone vs Pedestrian)

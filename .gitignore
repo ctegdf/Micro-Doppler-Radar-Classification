@@ -25,3 +25,13 @@ data/
 
 # Mac 系统垃圾文件
 .DS_Store
+
+# 忽略临时测试数据
+fake_carrada_data/
+real_audio_data/
+real_radhar_data/
+raw_data_external/
+
+# 忽略生成的图片 (如果有)
+*.png
+!docs/*.png  # 但保留 docs 文件夹里的演示图
