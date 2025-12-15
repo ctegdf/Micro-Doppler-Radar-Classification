@@ -1,0 +1,10 @@
+# Core Scientific Stack
+numpy>=1.21.0
+matplotlib>=3.5.0
+scipy>=1.7.0
+
+# Deep Learning Framework
+torch>=1.10.0
+
+# Utilities
+tqdm>=4.62.0

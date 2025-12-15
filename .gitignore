@@ -1,0 +1,27 @@
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 环境变量与密钥 (绝对不能传！)
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE 配置 (不要传你的个人设置)
+.idea/
+.vscode/
+*.swp
+
+# 数据集 (数据通常太大，不传 GitHub，只传代码)
+data/
+*.npy
+
+# 训练好的模型 (大文件通常不传，或者以后用 Git LFS 传)
+*.pth
+*.pt
+
+# Mac 系统垃圾文件
+.DS_Store
